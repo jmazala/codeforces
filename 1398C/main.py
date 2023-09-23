@@ -36,8 +36,7 @@ def good_subarrays(arr) -> int:
 # print(good_subarrays([2, 0, 0, 2, 1, 0, 2, 2, 0, 0, 1, 2, 0, 2, 1, 1, 2, 1, 0]))
 parse_input()
 
-output = []
 for test_case in test_cases:
-    output.append(good_subarrays(test_case))
+    print(good_subarrays(test_case))
 
-print(output)  # [3, 6, 1, 71]
+# [3, 6, 1, 71]
